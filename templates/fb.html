@@ -1,171 +1,181 @@
 <!doctype html>
 <html lang="en" class="h-100" data-bs-theme="auto">
+  <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
 
-<head>
-  <script src="/docs/5.3/assets/js/color-modes.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Download facebook video for free using Facebook Video downloder">
+   
+    <title>Facebook Video Downloader</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Download facebook video for free using Facebook Video downloder">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <!-- JavaScript (including necessary Bootstrap plugins) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/js/app.js"></script>
+    <link rel="icon" type="image/png" href="../static/Images/VDHQ-logo-removebg-preview.png"> 
+      </head>
+    
+      <body>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container">
+            <a class="navbar-brand" href="/">
+              <!-- <h3>Video Downloader</h3> -->
+              <img src="../static/Images/VDHQ-name-removebg-preview.png" alt="VDHQ" width="250" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/terms_and_conditions">Terms & Condition</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact">Contact</a>
+                </li>
+              </ul>
+             
+            </div>
+          </div>
+        </nav>
 
-  <title>Facebook Video Downloader</title>
+        <div class="container px-3 text-center py-5">
+          <h2>Facebook Video Downloader HQ</h2>
+          <p class="lead">Select the platform to download videos</p>
+          <div class="d-flex flex-row justify-content-center logo_container">
+            <a href="/fb" class="logo px-4 fb-active">
+               
+            </a>
+            <a href="/yt" class="logo px-4 yt" >
+                
+            </a>
+           
+          </div>
+          <div class="px-3 url-box">
+            
+            <form action="/download" method="post">
+              <input type="text" placeholder="Enter Facebook Video URL" class="px-4" name="url">
+              <button type="submit">Preview</button>
+            </form>
+          </div>
+            <p class="py-3">By downloading this video, you agree to the <a href="/terms_and_conditions">Fair Use Policy</a></p>
+            <div class="container">
+              <div class="separator">
+              </div>
+            </div>
+            <!-- {% if thumbnail_url %}
+            <section class="preview py-3">
+              <div class="container">
+                <div class="d-flex flex-column">
+                  <div class="thumbnail">
+                    <img src="{{ thumbnail_url }}" alt="Video Thumbnail">
+                    <h2>Video Preview</h2>
+                  </div>
+                  <div class="url-box">
+                    <form action="/fb-download" method="post">
+                      <input type="hidden" name="url" value="{{ download_url }}">
+                      <button type="submit">Download Now</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section> -->
+            
+            <div class="container">
+                <div class="separator"></div>
+            </div>
+            <!-- {% endif %} -->  
+            </div>
+            <section class="how-to-download">
+              <div class="container mx-auto text-center">
+              <h3>How to download video from VDHQ?</h3>
+              <div class="d-flex flex-lg-row flex-md-column flex-sm-column px-5 py-3 steps">
+              <div class="col-lg-6 col-md-12 py-2">
+                <img src="../static/Images/i1.jpeg" alt="img2" width="200">
+              </div>
+              <div class="col-lg-6 col-md-12 text-start py-5">
+               <strong>Step 1 — Copy the video URL</strong>
+               <p>Copy the URL of the video you want to download</p>
+              </div>
+              </div>
+              
+              <div class="d-flex flex-lg-row flex-md-column flex-sm-column px-5 py-3 steps ">
+                <div class="col-lg-6 col-md-12 text-start py-5">
+                  <strong>Step 2 — Paste it in the field</strong>
+                  <p>Paste the URL into the video downloader text field and click the red button</p>
+                 </div>
+                 <div class="col-lg-6 col-md-12 py-2">
+                  <img src="../static/Images/video-downloader2.jpg" alt="img2" width="200">
+                </div>
+                </div>
+              
+                <div class="d-flex flex-lg-row flex-md-column flex-sm-column px-5 py-3 steps ">
+                 
+                  <div class="col-lg-6 col-md-12 py-2">
+                    <img src="../static/Images/video-downloader.jpg" alt="img2" width="200">
+                  </div> <div class="col-lg-6 col-md-12 text-start py-5">
+                    <strong>Step 3 — Download the file</strong>
+                    <p>In just a few seconds you will get the file</p>
+                   </div>
+                  </div>
+              </div>
+              </section>
+            <section class="download-feature">
+              <div class="container mx-auto p-5">
+                <h2>Download videos anywhere from your browser</h2>
+                <div class="d-flex flex-row ">
+                  <div class="col">
+                    <p>Download videos from different online platforms from your phone, desktop, or tablet in just one click! VDHQ lets you download content from Instagram, TikTok, Vimeo, Twitch, and more so you can edit, repurpose, and share them anywhere. No watermarks, no loss in video quality, and fast! VEED’s video downloader works straight from your mobile or desktop browser; no app to install.</p>
+                  </div>
+                  <div class="col">
+                    <p>Optimize videos for Facebook, Instagram, Twitter, YouTube, and other social media and video-sharing platforms. Just select a preset from the Settings, and you’re good to go.<br> <br>
+              
+                      Note that most video-sharing platforms only allow downloading videos that are set to public. Please make sure that you have permission from the content creator to use their videos before altering or sharing them.</p>
+                  </div>
+                </div>
+              </div>
+              
+              </section>
+              <section class="video-hq py-5">
+                <div class="px-5 text-center container">
+                  <h2>Video Downloader HQ</h2>
+                  <p>The video downloader has already gained its reputation amongst all those who have tried it. It is handy and easy to use, and most important, its FREE! Don’t hesitate and start using it now!</p>
+                </div>
+              </section>
+              
+                <footer class="px-3 pt-3 footer">
+                 <div class="container d-flex flex-lg-row flex-xl-row flex-sm-column flex-md-column py-3  text-secondary">
+                  <div class="col-lg-3 col-md-12">
+                    <a href="/"><img src="../static/Images/VDHQ-logo-removebg-preview.png" alt="" width="120"></a>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <p><a href="/yt">Youtube</a> </p>
+                    <p><a href="/yt">Facebook</a> </p>
+                    <p><a href="/yt">Instagram</a> </p>
+              
+                  </div>
+                  <div class="col-lg-3 col-md-12">
+                    <p><a href="/contact">Contact</a> </p>
+                    <p><a href="/">FAQ</a> </p>
+                  </div>
+                  <div class="col-lg-3 col-md-12">
+                    <p><a href="/">Privacy Policy</a></p>
+                    <p><a href="/terms_and_conditions">Terms and Conditions</a> </p>
+                  </div>
+                 </div>
+                 <div class="text-center py-3 text-white ">
+                 <p>Youtube Video downloder by
+                  <a href="https://digitalasap.in/" class="text-primary">Digitalasap</a>.</p>
+                  </div>
+                </footer>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/static/css/style.css">
-  <!-- JavaScript (including necessary Bootstrap plugins) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="/static/js/app.js"></script>
-  <link rel="icon" type="image/png" href="../static/Images/VDHQ-logo-removebg-preview.png">
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light ">
-    <div class="container">
-      <a class="navbar-brand" href="/">
-        <!-- <h3>Video Downloader</h3> -->
-        <img src="../static/Images/VDHQ-name-removebg-preview.png" alt="VDHQ" width="250" class="logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/terms_and_conditions">Terms & Condition</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact">Contact</a>
-          </li>
-        </ul>
-
-      </div>
-    </div>
-  </nav>
-  <div class="container px-3 text-center py-5">
-    <h2>Facebook Video Downloader HQ</h2>
-    <p class="lead">Select the platform to download videos</p>
-    <div class="d-flex flex-row justify-content-center logo_container">
-      <a href="/fb" class="logo px-4 fb-active">
-      </a>
-      <a href="/yt" class="logo px-4 yt">
-      </a>
-    </div>
-    <div class="px-3 url-box">
-      <form action="/download" method="post">
-        <input type="text" placeholder="Enter Facebook Video URL" class="px-4" name="url">
-        <button type="submit">Preview</button>
-      </form>
-    </div>
-    <p class="py-3">By downloading this video, you agree to the <a href="/terms_and_conditions">Fair Use Policy</a></p>
-    <div class="container">
-      <div class="separator">
-      </div>
-    </div>
-    <div class="container">
-      <div class="separator"></div>
-    </div>
-    <!-- {% endif %} -->
-  </div>
-  <section class="how-to-download">
-    <div class="container mx-auto text-center">
-      <h3>How to download video from VDHQ?</h3>
-      <div class="d-flex flex-lg-row flex-md-column flex-sm-column px-5 py-3 steps">
-        <div class="col-lg-6 col-md-12 py-2">
-          <img src="../static/Images/i1.jpeg" alt="img2" width="200">
-        </div>
-        <div class="col-lg-6 col-md-12 text-start py-5">
-          <strong>Step 1 — Copy the video URL</strong>
-          <p>Copy the URL of the video you want to download</p>
-        </div>
-      </div>
-
-      <div class="d-flex flex-lg-row flex-md-column flex-sm-column px-5 py-3 steps ">
-        <div class="col-lg-6 col-md-12 text-start py-5">
-          <strong>Step 2 — Paste it in the field</strong>
-          <p>Paste the URL into the video downloader text field and click the red button</p>
-        </div>
-        <div class="col-lg-6 col-md-12 py-2">
-          <img src="../static/Images/video-downloader2.jpg" alt="img2" width="200">
-        </div>
-      </div>
-
-      <div class="d-flex flex-lg-row flex-md-column flex-sm-column px-5 py-3 steps ">
-
-        <div class="col-lg-6 col-md-12 py-2">
-          <img src="../static/Images/video-downloader.jpg" alt="img2" width="200">
-        </div>
-        <div class="col-lg-6 col-md-12 text-start py-5">
-          <strong>Step 3 — Download the file</strong>
-          <p>In just a few seconds you will get the file</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="download-feature">
-    <div class="container mx-auto p-5">
-      <h2>Download videos anywhere from your browser</h2>
-      <div class="d-flex flex-row ">
-        <div class="col">
-          <p>Download videos from different online platforms from your phone, desktop, or tablet in just one click! VDHQ
-            lets you download content from Instagram, TikTok, Vimeo, Twitch, and more so you can edit, repurpose, and
-            share them anywhere. No watermarks, no loss in video quality, and fast! VEED’s video downloader works
-            straight from your mobile or desktop browser; no app to install.</p>
-        </div>
-        <div class="col">
-          <p>Optimize videos for Facebook, Instagram, Twitter, YouTube, and other social media and video-sharing
-            platforms. Just select a preset from the Settings, and you’re good to go.<br> <br>
-
-            Note that most video-sharing platforms only allow downloading videos that are set to public. Please make
-            sure that you have permission from the content creator to use their videos before altering or sharing them.
-          </p>
-        </div>
-      </div>
-    </div>
-
-  </section>
-  <section class="video-hq py-5">
-    <div class="px-5 text-center container">
-      <h2>Video Downloader HQ</h2>
-      <p>The video downloader has already gained its reputation amongst all those who have tried it. It is handy and
-        easy to use, and most important, its FREE! Don’t hesitate and start using it now!</p>
-    </div>
-  </section>
-
-  <footer class="px-3 pt-3 footer">
-    <div class="container d-flex flex-lg-row flex-xl-row flex-sm-column flex-md-column py-3  text-secondary">
-      <div class="col-lg-3 col-md-12">
-        <a href="/"><img src="../static/Images/VDHQ-logo-removebg-preview.png" alt="" width="120"></a>
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <p><a href="/yt">Youtube</a> </p>
-        <p><a href="/yt">Facebook</a> </p>
-        <p><a href="/yt">Instagram</a> </p>
-
-      </div>
-      <div class="col-lg-3 col-md-12">
-        <p><a href="/contact">Contact</a> </p>
-        <p><a href="/">FAQ</a> </p>
-      </div>
-      <div class="col-lg-3 col-md-12">
-        <p><a href="/">Privacy Policy</a></p>
-        <p><a href="/terms_and_conditions">Terms and Conditions</a> </p>
-      </div>
-    </div>
-    <div class="text-center py-3 text-white ">
-      <p>Youtube Video downloder by
-        <a href="https://digitalasap.in/" class="text-primary">Digitalasap</a>.
-      </p>
-    </div>
-  </footer>
-
-
-</body>
-
+    
+  </body>
 </html>
