@@ -46,7 +46,7 @@
           </div>
         </nav>
 
-        <div class="container px-3 text-center py-5">
+        <div class="container px-3 text-center py-2">
           <h2>Facebook Video Downloader HQ</h2>
           <p class="lead">Select the platform to download videos</p>
           <div class="d-flex flex-row justify-content-center logo_container">
@@ -62,10 +62,16 @@
             
             <form action="/download" method="post">
               <input type="text" placeholder="Enter Facebook Video URL" class="px-4" name="url">
-              <button type="submit">Preview</button>
+              <button type="submit">Download</button>
             </form>
           </div>
             <p class="py-3">By downloading this video, you agree to the <a href="/terms_and_conditions">Fair Use Policy</a></p>
+            
+        {% if error_message %}
+           <div class="container error-box"><p class="error-message">{{ error_message }}</p>
+            </div>
+        {% endif %}
+        
             <div class="container">
               <div class="separator">
               </div>

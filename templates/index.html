@@ -49,7 +49,7 @@
     </div>
   </nav>
   
-  <div class="container px-3 text-center py-5">
+  <div class="container px-3 text-center py-2">
     <h2>Video Downloader HQ</h2>
     <p class="lead">Select the platform to download videos</p>
       <div class="d-flex flex-row justify-content-center logo_container">
@@ -70,10 +70,10 @@
             <button type="submit">Download</button>
         </form>
         <p class="py-3">By downloading this video, you agree to the <a href="/terms_and_conditions">Fair Use Policy</a></p>
-        <div class="container">
+        <!-- <div class="container">
           <div class="separator">
           </div>
-        </div>
+        </div> -->
 
         {% if thumbnail_url %}
             <div>
@@ -94,10 +94,16 @@
             </div>
             {% else %}
         {% if error_message %}
-            <p class="error-message">{{ error_message }}</p>
+            <div class="error-box container">
+              <p>{{ error_message }}</p>
+              </div>
         {% endif %}
         {% endif %}
+        <div class="container">
+          <div class="separator">
           </div>
+        </div>   
+      </div>
     </div>
 <section class="how-to-download">
 <div class="container mx-auto text-center">
@@ -112,7 +118,7 @@
 </div>
 </div>
 
-<div class="d-flex flex-lg-row flex-md-column flex-sm-column px-5 py-3 steps ">
+<div class="d-flex flex-lg-row flex-md-column flex-sm-column px-5 py-3 steps step2 ">
   <div class="col-lg-6 col-md-12 text-start py-5">
     <strong>Step 2 — Paste it in the field</strong>
     <p>Paste the URL into the video downloader text field and click the red button</p>
@@ -136,11 +142,11 @@
 <section class="download-feature">
 <div class="container mx-auto p-5">
   <h2>Download videos anywhere from your browser</h2>
-  <div class="d-flex flex-row ">
-    <div class="col">
+  <div class="d-flex flex-lg-column flex-md-column">
+    <div class="col-lg-6 col-md-12">
       <p>Download videos from different online platforms from your phone, desktop, or tablet in just one click! VDHQ lets you download content from Instagram, TikTok, Vimeo, Twitch, and more so you can edit, repurpose, and share them anywhere. No watermarks, no loss in video quality, and fast! VEED’s video downloader works straight from your mobile or desktop browser; no app to install.</p>
     </div>
-    <div class="col">
+    <div class="col-lg-6 col-md-12">
       <p>Optimize videos for Facebook, Instagram, Twitter, YouTube, and other social media and video-sharing platforms. Just select a preset from the Settings, and you’re good to go.<br> <br>
 
         Note that most video-sharing platforms only allow downloading videos that are set to public. Please make sure that you have permission from the content creator to use their videos before altering or sharing them.</p>

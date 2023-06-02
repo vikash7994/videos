@@ -28,6 +28,20 @@ a{
     transform: scaleX(1);
     transition: transform 0.3s ease-in-out;
   }
+.error-box{
+  max-width: 500px;
+  margin: 20px auto;
+  border-radius: 8px;
+  padding: 12px 0;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 10px 27px rgba(209, 78, 45, 0.35);
+}
+.error-box p{
+  margin: 0;
+  padding: 8px;
+}
+
   .footer{
     background-color: #d9e0e4 !important;
 
@@ -147,6 +161,9 @@ color: rgb(44, 44, 44);
 .how-to-download .steps{
   display: flex;
   flex-direction: column;
+}
+.how-to-download .steps2{
+  flex-direction: column-reverse !important;
 }
 .footer .container{
   text-align: center;
