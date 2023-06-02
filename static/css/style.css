@@ -3,6 +3,9 @@ margin: 0 auto;
   background-image: url(../Images/background.svg);
   background-repeat: no-repeat;
 }
+.logos{
+  width: 230px;
+}
 ul{
   list-style: none;
 }
@@ -147,6 +150,9 @@ color: rgb(44, 44, 44);
 
 @media screen and (max-width: 768px)
 {
+  .logos{
+    width: 170px;
+  }
   .url-box form input{
     width: 100%;
     padding: 15px 25px;
