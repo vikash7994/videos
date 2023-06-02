@@ -165,6 +165,10 @@ color: rgb(44, 44, 44);
 .how-to-download .step2{
   flex-direction: column-reverse;
 }
+.how-to-download .col-lg-5{
+  text-align: center !important;
+}
+
 .download-feature .gap-2{
 flex-direction: column;
 }
