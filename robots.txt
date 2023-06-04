@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /static/
+Disallow: /docs/
+Disallow: /test/
+Sitemap: https://www.mediadownloaderhq.com/sitemap.xml
