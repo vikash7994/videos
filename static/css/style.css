@@ -6,6 +6,11 @@ margin: 0 auto;
 .logos{
   width: 230px;
 }
+.lead{
+  font-weight: bold;
+  font-size: 18px;
+  opacity: 0.5;
+}
 ul{
   list-style: none;
 }
